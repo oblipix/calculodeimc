@@ -1,0 +1,116 @@
+
+:root {
+--primary-color: #fcdf9d;
+--secundary-color: #705d3a;
+
+}
+
+
+*{
+box-sizing: border-box;
+outline: 0;
+margin-bottom: 80px;
+
+}
+
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+.container {
+color: var(--secundary-color);
+width: 640px;
+height: 550px;
+margin-left: 350px;
+margin-top: 36px;
+background: #ffff;
+padding: 60px;
+font-family: "Abel", sans-serif;
+box-shadow: -10px -10px 20px var(--secundary-color);
+font-size: 20px;
+
+}
+
+form input, form lavel, form  button {
+    
+    border:none;
+    background: #fcdf9d;
+      width: 100%;
+   margin-bottom: 20px;
+    
+}
+
+form input{
+    
+    margin-top: 20px;
+    font-size: 20px;
+    height: 36px;
+    padding: 18px;
+    font-family: "Abel", sans-serif;
+    color: var(--secundary-color);
+ 
+}
+
+
+
+
+form button {
+text-align: center;
+  font-size: 15px;
+  font-family: "Playwrite FR Moderne", cursive;
+    background-color: var(--secundary-color);
+    color: #ffff;
+    border: none;
+    border-radius: 220px;
+    font-weight: 800px;
+    height: 50px;
+    cursor: pointer;  
+    margin-top: 110px;   
+}
+
+
+form button:hover {
+    color: var(--secundary-color);
+    background: var(--primary-color);
+    border-radius: 0px;
+    font-family: "Playwrite FR Moderne", cursive;
+    text-align: center;
+   
+}
+
+h1 {
+text-align: center;    
+    font-style: italic;
+       font-family: "Playwrite FR Moderne", cursive;
+   color: var(--secundary-color);
+    }
+    
+
+    
+        
+
+
+
+    b{
+color:var(--secundary-color);
+
+    }
+
+
+    .paragrafo-resultado, .bad { 
+        background: var(--primary-color);
+        padding: 10px 20px;
+    }
+
+    .bad {
+background: var(--secundary-color);
+color:#ffff;
+
+    }
