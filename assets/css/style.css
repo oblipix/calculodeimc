@@ -31,7 +31,7 @@ height: 550px;
 margin-left: 350px;
 margin-top: 36px;
 background: #ffff;
-padding: 60px;
+padding: 40px;
 font-family: "Abel", sans-serif;
 box-shadow: -10px -10px 20px var(--secundary-color);
 font-size: 20px;
@@ -52,7 +52,6 @@ form input{
     margin-top: 20px;
     font-size: 20px;
     height: 36px;
-    padding: 18px;
     font-family: "Abel", sans-serif;
     color: var(--secundary-color);
  
@@ -107,6 +106,7 @@ color:var(--secundary-color);
     .paragrafo-resultado, .bad { 
         background: var(--primary-color);
         padding: 10px 20px;
+        margin-top: -220px;
     }
 
     .bad {
